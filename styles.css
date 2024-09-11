@@ -1,0 +1,65 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffbb00;
+}
+
+#temperatureForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#labelForm{
+    font-weight: bold;
+    font-size: 36px;
+
+}
+
+#temperature{
+    width: 350px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#temperatureType{
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#submitBtn{
+    width: 80px;
+    border: 2px solid black;
+    background-color: #ffbb00;
+    border-radius: 5px;
+    padding: 7px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+#result{
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 10px;
+    color: #000000;
+}
